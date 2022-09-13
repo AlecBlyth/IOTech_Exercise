@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Devices": {
+      "type": "array",
+      "items": [
+        {
+          "object": "device",
+          "properties": {
+            "Name": {
+              "string": "accelerometer-device"
+            },
+            "Type": {
+              "string": "OPC-UA"
+            },
+            "Info": {
+              "string": "An OPC-UA device, used to read an accelerometer"
+            },
+            "Uuid": {
+              "string": "uuid:2d9596e0-e583-11ec-8fea-0242ac120002"
+            },
+            "PayloadTotal": {
+              "integer": 34
+            },
+          "object": "device",
+          "properties": {
+            "Name": {
+              "string": "Accelerometer-device"
+            },
+            "Type": {
+              "string": "OPC-UA"
+            },
+            "Info": {
+              "string": "An OPC-UA device, used to read an accelerometer"
+            },
+            "Uuid": {
+              "string": "uuid:31bd12a2-e583-11ec-8fea-0242ac120002"
+            },
+            "PayloadTotal": {
+              "integer": 94
+            },
+          "object": "device",
+          "properties": {
+            "Name": {
+              "string": "Light-level-device"
+            },
+            "Type": {
+              "string": "Bacnet"
+            },
+            "Info": {
+              "string": "A Bacnet device, used to read the light-level"
+            },
+            "Uuid": {
+              "string": "uuid:29446300-e583-11ec-8fea-0242ac120002"
+            },
+            "PayloadTotal": {
+              "integer": 34
+            },
+          "object": "device",
+          "properties": {
+            "Name": {
+              "string": "Pressure-device"
+            },
+            "Type": {
+              "string": "Modbus"
+            },
+            "Info": {
+              "string": "A Modbus device, used to read the pressure"
+            },
+            "Uuid": {
+              "string": "uuid:22919442-e583-11ec-8fea-0242ac120002"
+            },
+            "PayloadTotal": {
+              "integer": 75
+            },
+          "object": "device",
+          "properties": {
+            "Name": {
+              "string": "Temperature-device"
+            },
+            "Type": {
+              "string": "Modbus"
+            },
+            "Info": {
+              "string": "A Modbus device, used to read the temperature"
+            },
+            "Uuid": {
+              "string": "uuid:c92788ea-e57c-11ec-8fea-0242ac120002"
+            },
+            "PayloadTotal": {
+              "integer": 10
+            },
+          },
+          "required": [
+            "Name",
+            "Type",
+            "Info",
+            "Uuid",
+            "PayloadTotal"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "Devices"
+  ]
+}

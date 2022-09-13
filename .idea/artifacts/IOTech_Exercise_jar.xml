@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IOTech Exercise:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IOTech_Exercise_jar</output-path>
+    <root id="archive" name="IOTech Exercise.jar">
+      <element id="module-output" name="IOTech Exercise" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/datafiles/json-simple-1.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
